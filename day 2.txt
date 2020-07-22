@@ -1,0 +1,35 @@
+Q1. Write a JS code which takes input from the user and los it in the console.
+A1.let name = prompt("what is your name");
+   console.log(name);
+
+Q2.Explain with examples the remaining methods of string and array.
+A2.search():- method searches a string for a specified value and returns the position of the match.
+   Eg:-let str = "Hello we are Learning JS!";
+       let pos = str.search("JS");
+       console.log(pos);
+   Output:23
+   slice():- extracts a part of a string and returns the extracted part in a new string.
+   Eg:-let str = "Volvo,BMW, Kiwi";
+       let res = str.slice(7, 10);
+       console.log(res);
+   Output:-BMW
+   substring():-similar to slice but cannot accept negative indexes.
+   Eg:-let str = "Volvo,BMW, Kiwi";
+       let res = str.slice(7);
+       console.log(res); 
+   Output:-BMW,Kiwi
+   replace():-method replaces a specified value with another value in a string:
+   Eg:-let str = Lets learn Java!";
+       let n = str.replace("Java", "JS");
+       console.log(n);
+   Output:-Lets learn JS.
+Q3.Ask the user if he is 21+ and log the value "Can drink ","Cannot drink".
+A3. let age=prompt("what is your age");
+    if(age==21)
+    {
+      console.log("Can drink");
+    }
+    else
+    {
+       console.log("Cannot drink");
+    }
