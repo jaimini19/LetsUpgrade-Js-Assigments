@@ -1,0 +1,38 @@
+Q1.Explore and Explain various methods in console function.
+A1. 1) console.log():used to print the output to the console and can be used for testing.
+      Eg:- console.log('abc'); 
+	console.log(1); 
+	console.log(true); 
+	console.log(null); 
+	console.log(undefined); 
+    2)console.warn():writes a warning to the console.The warning message will be highlighted with yellow color.
+      Eg:- console.warn("THIS IS WARNING");
+    3)console.error():writes an error message to the console. Useful in testing of code. 
+      Eg:-console.error('This is a simple error');		
+    4)console.clear():clears the console and also write a message in the console: "Console was cleared". 
+      Eg:-console.clear();
+    5)console.table():allows  to generate a table inside a console. The input must be an array or an object which will be shown as a table.
+      Eg:-console.table({'a':1, 'b':2}); 		
+
+
+Q2.Write the difference between var,let and const with code examples.
+A2. 1)var declarations are  function scoped
+    let and const are block scoped.
+    2)var variables can be updated and re-declared within its scope,
+      let variables can be updated but not re-declared,
+      const variables can neither be updated nor re-declared.
+    3) var and let can be declared without being initialized, 
+       const must be initialized during declaration.
+
+Q3.Write a brief intro on available datatypes in javascript.
+A3.To store any variable datatype is used. It is like a container to store anything.
+   Number:- var length = 16;//stores numbers with decimals or without decimals                              
+   String:-var lastName = "Johnson";//stores string or text with single or double quotes.
+   Boolean:-var counter= true;//can have either true or false value.
+   Object:-var x = {firstName:"Mary", lastName:"Doe"};//stores as name:value pairs.
+   Array:-var cars = ["Saab", "Volvo", "BMW"];//written square brackets to store more than one values.
+   Undefined:-var=car;//variable without a value
+   Null:-var person=null;//null is nothing.  
+
+
+
